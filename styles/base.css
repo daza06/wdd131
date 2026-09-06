@@ -8,6 +8,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+header {
+  background-color: #dbecff;
+}
+
 #course-title {
   display: block;
   text-align: center;
@@ -31,7 +35,6 @@ body {
   text-decoration: none;
   padding: 0;
   display: inline-block;
-  transition: color 0.2s ease;
   transition: transform 0.2s ease;
   color: white;
 }
