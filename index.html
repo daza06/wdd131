@@ -1,11 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 131 Dynamic Web Fundamentals | Daniel Zavala | Week 01 Assignment Home Page"
+    />
+    <meta author="Daniel Zavala" />
+    <title>WDD 131 | Dynamic Web Fundamentals | Daniel Zavala</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/getdates.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/daniel-zavala-aa5960238/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+          </li>
+          <li>
+            <a
+              href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+              target="_blank"
+              >Scripture</a
+            >
+          </li>
+          <li><a href="" target="_blank">Final Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Daniel Zavala</h1>
+      <section class="card">
+        <h2>About Me</h2>
+        <div class="profile">
+          <div class="profile-content">
+            <p>
+              Hi! My name is Daniel Zavala and I live in Utah. I'm currently
+              working towards a degree in Software Development from BYU-I. I
+              love technology and working with computers. In my free time I
+              enjoy playing video games, watching movies, and going on walks
+              with our dog. I'm an excellent problem solver and very patient,
+              you can count on me to get the job done right!
+            </p>
+            <img src="images/profile-pic.jpg" alt="My Profile Picture" />
+          </div>
+        </div>
+        <div class="state">
+          <h3>Utah, USA</h3>
+        </div>
+        <div class="state-content">
+          <div class="flag">
+            <img src="images/utah-flag.svg.jpg" alt="State Flag of Utah" />
+            <p>Official Flag of Utah</p>
+          </div>
+          <p>
+            Utah is a beautiful state known for its incredible landscapes, from
+            the towering red-rock cliffs of the national parks to the mountains
+            surrounding Salt Lake City. I love how Utah offers a mix of outdoor
+            adventure, peaceful scenery, and unique places to explore. Whether
+            it’s hiking through the mountains, visiting a national park, or
+            simply enjoying the views, there’s always something new to discover.
+          </p>
+        </div>
+      </section>
+      <section class="card">
+        <h2>Web Dev Resources</h2>
+        <div class="resources">
+          <ul>
+            <li>
+              <a href="https://github.com/daza06" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn" target="_blank"
+                >FreeCodeCamp</a
+              >
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank"
+                >W3 Schools</a
+              >
+            </li>
+            <li>
+              <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>
+            </li>
+            <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="currentyear"></span>| Daniel Zavala | Utah</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
 </html>
