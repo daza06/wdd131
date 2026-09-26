@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 131 Dynamic Web Fundamentals | Daniel Zavala | Week 03 Assignment Country Page"
+    />
+    <meta name="author" content="Daniel Zavala" />
+    <title>WDD 131 | Dynamic Web Fundamentals | Daniel Zavala</title>
+    <link rel="stylesheet" href="styles/places.css" />
+    <link rel="stylesheet" href="styles/places-large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/places.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Colorado</h1>
+    </header>
+
+    <main>
+      <div class="hero">
+        <picture>
+          <source srcset="images/co-large.webp" media="(min-width: 1000px)" />
+          <source srcset="images/co-medium.webp" media="(min-width: 500px)" />
+          <img
+            src="images/co-small.webp"
+            alt="View of Colorado Mountains"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
+
+      <section class="card data">
+        <h2>Data</h2>
+        <p><strong>Area:</strong> 268,419 sq km</p>
+        <p><strong>Population:</strong> 6 million</p>
+        <p><strong>Capital:</strong> Denver</p>
+        <p><strong>Languages:</strong> English</p>
+        <p><strong>Currency:</strong> US Dollar</p>
+        <p><strong>Time Zone:</strong> MST/MDT</p>
+      </section>
+
+      <section class="card weather">
+        <h2>Weather</h2>
+        <img
+          src="images/weather-icon.svg"
+          alt="Weather Icon"
+          class="weather-icon"
+        />
+        <p><strong>Temperature:</strong> <span id="temperature">62</span>°F</p>
+        <p><strong>Conditions:</strong> Partly Cloudy</p>
+        <p><strong>Wind:</strong> <span id="windSpeed">8</span> mph</p>
+        <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="currentyear"></span>| Daniel Zavala | Utah</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
