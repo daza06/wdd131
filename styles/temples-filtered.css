@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #5b1f7d;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  border: none;
+  background: none;
+  color: white;
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "✖";
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+nav.open {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #5b1f7d;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#title {
+  text-align: center;
+  margin: 1rem 0 2rem;
+  color: #5b1f7d;
+}
+
+.temple-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.temple-card {
+  background-color: white;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.temple-card h3 {
+  color: black;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.temple-card p {
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+.temple-card strong {
+  color: #5b1f7d;
+  font-variant: small-caps;
+}
+
+.temple-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+}
+
+footer {
+  background-color: #5b1f7d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
