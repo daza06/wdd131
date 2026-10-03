@@ -112,7 +112,7 @@ function filterTemples(filter) {
     filtered = temples.filter((temple) => parseInt(temple.dedicated) < 1900);
     pageTitle.textContent = "Old Temples";
   } else if (filter === "new") {
-    filtered = temples.filter((temple) => parseInt(temple.dedicated) > 2000);
+    filtered = temples.filter((temple) => parseInt(temple.dedicated) >= 2000);
     pageTitle.textContent = "New Temples";
   } else if (filter === "large") {
     filtered = temples.filter((temple) => temple.area > 90000);
