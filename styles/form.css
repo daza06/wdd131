@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  background-color: white;
+}
+
+header {
+  background-color: #dbecff;
+  color: black;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 3px solid black;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 2rem auto;
+}
+
+form {
+  background-color: #f8fbfe;
+  border: 1px solid #bcbcbc;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+label,
+legend {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  color: #8aa0dc;
+  font-size: 1rem;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border: 1px solid #bcbcbc;
+}
+
+fieldset {
+  border: none;
+  margin-top: 1rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.rating label {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.rating input {
+  display: block;
+  margin: 0.5rem auto;
+  width: 28px;
+  height: 28px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-label input {
+  width: 32px;
+  height: 32px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #bcbcbc;
+  background-color: black;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #dbecff;
+  color: black;
+}
+
+.confirmation {
+  background-color: #f8fbfe;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.confirmation h2,
+.confirmation p {
+  margin-bottom: 1rem;
+}
+
+.confirmation a {
+  display: inline-block;
+  background-color: #dbecff;
+  color: black;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+}
+
+.confirmation a:hover {
+  background-color: black;
+  color: white;
+}
+
+#reviewCount {
+  color: black;
+}
+
+footer {
+  background-color: #dbecff;
+  color: black;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-top: 3px solid black;
+}
+
+#currentYear {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin: 1rem auto;
+  }
+
+  form {
+    padding: 1.2rem;
+  }
+
+  .rating label {
+    font-size: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+}
