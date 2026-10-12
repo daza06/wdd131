@@ -47,6 +47,10 @@ span {
   font-size: 1rem;
 }
 
+#italic {
+  font-style: italic;
+}
+
 select,
 input[type="date"],
 input[type="text"],
