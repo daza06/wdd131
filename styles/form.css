@@ -11,11 +11,11 @@ body {
 }
 
 header {
-  background-color: #dbecff;
+  background-color: #0ba8d4;
   color: black;
   text-align: center;
   padding: 2rem 1rem;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #e3a907;
 }
 
 header h1 {
@@ -28,8 +28,7 @@ main {
 }
 
 form {
-  background-color: #f8fbfe;
-  border: 1px solid #bcbcbc;
+  background-color: #eef2f3;
   padding: 2rem;
   border-radius: 6px;
 }
@@ -44,7 +43,7 @@ legend {
 }
 
 span {
-  color: #8aa0dc;
+  color: #003f52;
   font-size: 1rem;
 }
 
@@ -102,18 +101,18 @@ input[type="submit"] {
   font-size: 1.7rem;
   font-weight: 700;
   cursor: pointer;
-  border: 1px solid #bcbcbc;
-  background-color: black;
-  color: white;
-}
-
-input[type="submit"]:hover {
-  background-color: #dbecff;
+  border: 1px solid #777777;
+  background-color: #e3a907;
   color: black;
 }
 
+input[type="submit"]:hover {
+  background-color: #0ba8d4;
+  color: white;
+}
+
 .confirmation {
-  background-color: #f8fbfe;
+  background-color: #0ba8d4;
   padding: 2rem;
   text-align: center;
   border-radius: 6px;
@@ -126,7 +125,7 @@ input[type="submit"]:hover {
 
 .confirmation a {
   display: inline-block;
-  background-color: #dbecff;
+  background-color: #e3a907;
   color: black;
   padding: 0.75rem 1rem;
   text-decoration: none;
@@ -142,16 +141,16 @@ input[type="submit"]:hover {
 }
 
 footer {
-  background-color: #dbecff;
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 2rem;
-  border-top: 3px solid black;
+  border-top: 3px solid #0ba8d4;
 }
 
 #currentYear {
-  color: black;
+  color: #e3a907;
 }
 
 @media screen and (max-width: 600px) {
